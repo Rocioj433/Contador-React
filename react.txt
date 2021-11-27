@@ -1,0 +1,45 @@
+ const Interpolar = () =>
+            {
+                const [numero, setNumero] = React.useState(0);
+                console.log()
+                setInterval(() =>{
+                    setNumero(numero + 1);
+                    console.log(numero);
+                },1500)
+                /* const nombre = prompt("Ingrese su nombre") */
+                return(
+                    <div>
+                        <h1>Fecha:</h1>
+                        <hr></hr>
+                    </div>
+                )
+                    
+            }
+            /* const Saludo = () => {
+                return(
+                    <ol>
+                        <li>Sandia</li>
+                        <li>Frutilla</li>
+                    </ol>
+                )
+            } */
+            /* class Saludo extends React.Component {
+                render() {
+                    return (
+                        <div>
+                            <h1>Hello, world!</h1>
+                            <p>This is my first React app.</p>
+                        </div>
+                    );
+                } */
+            ReactDOM.render(<Interpolar/>, document.getElementById('root'));
+            /* ReactDOM.render(
+                <div>
+                    <ul>
+                        <li>Manzana</li>
+                        <li>Pera</li>
+                        <li>Sandia</li>
+                    </ul>
+                </div>,
+                document.getElementById('root')
+            ) */
