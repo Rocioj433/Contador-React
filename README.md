@@ -1,3 +1,3 @@
 # Contador-React
 
-  Archivos del proyecto integrador del curso de React desde 0 de Udemy
+  Aplicacion de contador PWA hecha con React para Udemy
