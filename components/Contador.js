@@ -1,5 +1,5 @@
 const Contador = () => {
-  const [cuenta, setCuenta] = React.useState(3);
+  const [cuenta, setCuenta] = React.useState(0);
 
   const aumentar = () => setCuenta(cuenta + 1);
   const disminuir = () => setCuenta(cuenta - 1);
